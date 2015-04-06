@@ -1,0 +1,53 @@
+#map-canvas{
+  height: 500px;
+  width: 700px;
+    border:8px solid white;
+  box-shadow:3px 3px 5px black;
+}
+*{
+  font-family:Arial;
+  text-decoration:none;
+}
+#title {
+  text-align:center;
+  font-size:50px;
+	background-color:lightgrey;
+	border-radius:5px;
+	padding:8px;
+	width:700px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#coverpic{
+ // display:inline;
+  float:right;
+  border:5px solid white;
+  margin-left:8px;
+  
+  box-shadow:3px 3px 5px black;
+  
+}
+#intro {
+// display:inline;
+  
+  margin-right:8px;
+}
+
+body {
+  background-color:tan;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.l-button{
+  border:1px solid black;
+  padding:3px;
+  margin:4px;
+  display:inline;
+  background-color:tan;
+  box-shadow:2px 2px 2px tan;
+}
+
+
