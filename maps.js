@@ -6,7 +6,7 @@ function initialize() {
   
     // Other options for the map, pretty much selfexplanatory
     var mapOptions = {
-        zoom: 14,
+        zoom: 17,
         center: myLatlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
@@ -19,7 +19,7 @@ function initialize() {
 
      var i;
      
-     for (i=0; i<5; i++) {
+     for (i=0; i<6; i++) {
 			 var trialerLoc = new google.maps.LatLng(
          data.feed.entry[i].gsx$lat.$t,
          data.feed.entry[i].gsx$long.$t );
@@ -69,7 +69,7 @@ function initialize() {
   
     // Other options for the map, pretty much selfexplanatory
     var mapOptions = {
-        zoom: 14,
+        zoom: 13,
         center: myLatlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
@@ -82,7 +82,7 @@ function initialize() {
 
      var i;
      
-     for (i=0; i<2; i++) {
+     for (i=0; i<6; i++) {
 			 var trialerLoc = new google.maps.LatLng(
          data.feed.entry[i].gsx$lat.$t,
          data.feed.entry[i].gsx$long.$t );
