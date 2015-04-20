@@ -19,7 +19,7 @@ function initialize() {
 
      var i;
      
-     for (i=0; i<2; i++) {
+     for (i=0; i<5; i++) {
 			 var trialerLoc = new google.maps.LatLng(
          data.feed.entry[i].gsx$lat.$t,
          data.feed.entry[i].gsx$long.$t );
